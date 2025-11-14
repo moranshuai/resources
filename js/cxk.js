@@ -9,9 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // 确保音频不会循环播放
     audio.loop = false;
 
-    // 记录是否已经播放过，避免重复播放
-    let hasPlayed = false;
-
     document.addEventListener('visibilitychange', function() {
         if (!document.hidden && !hasPlayed) {
             // 标签页可见且尚未播放过
