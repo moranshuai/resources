@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let audioPlayed = false;
 
     // 创建音频元素
-    const audio = new Audio('your-audio-file.mp3'); // 替换为你的音频文件URL
+    const audio = new Audio('https://ikun.cm/res/ngmhhy.mp3'); // 音频文件URL
 
     document.addEventListener('visibilitychange', function() {
         if (!document.hidden && !audioPlayed) {
